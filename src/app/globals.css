@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: italicFont;
+  src: url(/public/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: regularFont;
+  src: url(/public/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: boldFont;
+  src: url(/public/assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: semiBoldFont;
+  src: url(/public/assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +45,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+
+h1 {
+  /* font-family: boldFont, Times, serif; */
 }
